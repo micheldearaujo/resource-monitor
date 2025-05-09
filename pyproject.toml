@@ -1,0 +1,11 @@
+[project]
+name = "resource-monitor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gputil>=1.4.0",
+    "psutil>=7.0.0",
+    "tqdm>=4.67.1",
+]
