@@ -3,6 +3,7 @@ import GPUtil
 import time
 from tqdm import tqdm
 
+
 def get_gpu_info():
     try:
         gpus = GPUtil.getGPUs()
